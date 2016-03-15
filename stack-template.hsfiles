@@ -62,7 +62,8 @@ source-repository head
   location: https://github.com/{{github-username}}/{{name}}
 
 {-# START_FILE Setup.hs #-}
-import Distribution.Simple
+import           Distribution.Simple
+
 main = defaultMain
 
 {-# START_FILE src/Lib.hs #-}
@@ -99,11 +100,7 @@ import           Language.Haskell.HLint ( hlint )
 import           System.Exit            ( exitFailure, exitSuccess )
 
 arguments :: [String]
-arguments =
-    [ "src"
-    , "app"
-    , "test"
-    ]
+arguments = [ "src", "app", "test" ]
 
 main :: IO ()
 main = do
