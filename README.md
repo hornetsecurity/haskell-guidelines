@@ -6,6 +6,11 @@ This document describes the preferred code style for Haskell at
 Meier's
 [Style Guide for Elevence](git@github.com:meiersi/HaskellerZ.git).
 
+If your're interested in an exciting career with Haskell have a look at our career page:
+
+https://www.hornetsecurity.com/de/karriere
+
+
 
 ## Guiding Principles
 
